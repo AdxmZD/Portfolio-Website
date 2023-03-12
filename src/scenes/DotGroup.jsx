@@ -17,7 +17,7 @@ const DotGroup = ({ currentPage, setCurrentPage }) => {
           currentPage === "skills" ? selectedStyles : "bg-dark-grey"
         }
         w-3 h-3 rounded-full`}
-        href={`#home`}
+        href={`#skills`}
         onClick={() => setCurrentPage("skills")}
       />
       <AnchorLink
@@ -25,7 +25,7 @@ const DotGroup = ({ currentPage, setCurrentPage }) => {
           currentPage === "projects" ? selectedStyles : "bg-dark-grey"
         }
         w-3 h-3 rounded-full`}
-        href={`#home`}
+        href={`#projects`}
         onClick={() => setCurrentPage("projects")}
       />
       <AnchorLink
@@ -33,7 +33,7 @@ const DotGroup = ({ currentPage, setCurrentPage }) => {
           currentPage === "contact" ? selectedStyles : "bg-dark-grey"
         }
         w-3 h-3 rounded-full`}
-        href={`#home`}
+        href={`#contact`}
         onClick={() => setCurrentPage("contact")}
       />
     </div>

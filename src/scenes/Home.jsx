@@ -39,7 +39,7 @@ const Home = ({ setCurrentPage }) => {
         <motion.div
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ amount: 0.5 }}
           transition={{ duration: 0.75 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
@@ -60,7 +60,7 @@ const Home = ({ setCurrentPage }) => {
           className="flex mt-5 justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ amount: 0.5 }}
           transition={{ delay: 0.2, duration: 0.75 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
@@ -81,7 +81,7 @@ const Home = ({ setCurrentPage }) => {
           className="flex mt-5 justify-center md:justify-start"
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ amount: 0.5 }}
           transition={{ delay: 0.4, duration: 0.75 }}
           variants={{
             hidden: { opacity: 0, x: -50 },

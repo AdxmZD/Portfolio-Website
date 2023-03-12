@@ -5,6 +5,8 @@ import DotGroup from "./scenes/DotGroup";
 import Home from "./scenes/Home";
 import PageBreak from "./components/PageBreak";
 import Skills from "./scenes/Skills";
+import Projects from "./scenes/Projects";
+import Contact from "./scenes/Contact";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("home");
@@ -29,16 +31,24 @@ function App() {
       />
       <div className="w-5/6 mx-auto md:h-full">
         {isAboveMediumScreens && (
-          <DotGroup>
+          <DotGroup
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
-          </DotGroup>
+          ></DotGroup>
         )}
         <Home setCurrentPage={setCurrentPage} />
       </div>
       <PageBreak />
       <div className="w-5/6 mx-auto md:h-full">
         <Skills />
+      </div>
+      <PageBreak />
+      <div className="w-5/6 mx-auto md:h-full">
+        <Projects />
+      </div>
+      <PageBreak />
+      <div className="w-5/6 mx-auto md:h-full">
+        <Contact />
       </div>
     </div>
   );
