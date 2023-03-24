@@ -50,9 +50,9 @@ const Home = ({ setCurrentPage }) => {
             Adam Deen
           </p>
           <p className="mt-10 mb-7 text-center md:text-start">
-            Welcome to my online portfolio. I developed this responsive website
-            using React Hook Form, Tailwind CSS and Framer-Motion to showcase my
-            skillset and project experience.
+            Junior web developer with one and a half years of experience. I have
+            a passion for front-end development, while also being keen to try
+            out new tech stacks and learn new skills.
           </p>
         </motion.div>
 
