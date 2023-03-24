@@ -25,8 +25,13 @@ const Skills = () => {
           </p>
           <PageBreak className="w-1/3" />
           <p className="mt-10 mb-7">
-            This is the skills section. Here I will talk about the different
-            skills I have and how I have used them.
+            As a junior developer I am constantly attaining new skills and
+            experiences. In my one and a half years as a developer, I have had
+            the opportunity to use a wide range of tools, languages and
+            frameworks to implement solutions. I am an excellent team player who
+            enjoys peer programming and adapting to new teams and development
+            environments. I consider myself to be very flexible and keen to dive
+            into new tech stacks where possible.
           </p>
         </motion.div>
         <div className="mt-16 md:mt-0">
@@ -65,9 +70,13 @@ const Skills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            Before entering this industry, I tought secondary level Maths for a
+            year to attain my teaching qualification. I credit this experience
+            with greatly improving my confidence and communication skills, as I
+            am now very proficient in giving presentations and building a
+            rapport with clients. I am currently employed by a consultancy where
+            I've contributed to numerous internal projects, as well as being
+            placed in a team at NatWest for 7 months.
           </p>
         </motion.div>
 
@@ -87,17 +96,29 @@ const Skills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                Tools/Languages/Frameworks
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
-          </p>
+          <div className="flex flex-wrap flex-row gap-2 mt-5">
+            <p className="rounded border border-white p-2">JavaScript</p>
+            <p className="rounded border border-white p-2">React</p>
+            <p className="rounded border border-white p-2">TypeScript</p>
+            <p className="rounded border border-white p-2">Bash</p>
+            <p className="rounded border border-white p-2">Flutter</p>
+            <p className="rounded border border-white p-2">SQL</p>
+            <p className="rounded border border-white p-2">MongoDB</p>
+            <p className="rounded border border-white p-2">Postgresql</p>
+            <p className="rounded border border-white p-2">Express</p>
+            <p className="rounded border border-white p-2">Next</p>
+            <p className="rounded border border-white p-2">JIRA</p>
+            <p className="rounded border border-white p-2">ServiceNow</p>
+            <p className="rounded border border-white p-2">Git</p>
+            <p className="rounded border border-white p-2">Tailwind CSS</p>
+            <p className="rounded border border-white p-2">HTML</p>
+            <p className="rounded border border-white p-2">Docker</p>
+          </div>
         </motion.div>
         {/* IMAGINATIVE */}
         <motion.div
@@ -115,16 +136,18 @@ const Skills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                Projects
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            In my current employment, I have contributed to numerous development
+            projects in an Agile environment. Following this, as I have greatly
+            enjoyed Front-End web development, I have been working on various
+            React projects to refine my skills. Some snapshots of these projects
+            can be found below, with the code repositories being available on my
+            GitHub.
           </p>
         </motion.div>
       </div>

@@ -39,11 +39,11 @@ function App() {
         <Home setCurrentPage={setCurrentPage} />
       </div>
       <PageBreak />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-fit">
         <Skills />
       </div>
       <PageBreak />
-      <div className="w-5/6 mx-auto md:h-full">
+      <div className="w-5/6 mx-auto md:h-fit">
         <Projects />
       </div>
       <PageBreak />
