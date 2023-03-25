@@ -51,8 +51,8 @@ const Home = ({ setCurrentPage }) => {
           </p>
           <p className="mt-10 mb-7 text-center md:text-start">
             Junior web developer with one and a half years of experience. I have
-            a passion for front-end development, while also being keen to try
-            out new tech stacks and learn new skills.
+            a passion for front-end development, while I am also keen to try out
+            new tech stacks and learn new skills.
           </p>
         </motion.div>
 
