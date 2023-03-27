@@ -5,7 +5,7 @@ import SMP from "../assets/smp1.png";
 import Portfolio from "../assets/portfolio.png";
 import WhaTodo from "../assets/WhaTodo.png";
 import WeatherApp from "../assets/weatherApp.png";
-import Kanban from "../assets/Kanban.png";
+import KanbanNew from "../assets/KanbanNew.png";
 
 const Projects = () => {
   const overlayStyle = `absolute h-[300px] w-[600px] opacity-0 hover:opacity-90 transition duration-500
@@ -133,8 +133,8 @@ const Projects = () => {
             <p className="text-2xl font-playfair">Weather API App</p>
             <p className="mt-7">
               Basic Front-End React weather app that fetches weather data from a
-              free weather API. The weather data fetched is dependant on the
-              location entered by the user.
+              free weather API. The data returned from the API is dependant on
+              the location entered by the user.
             </p>
           </div>
           <img
@@ -156,8 +156,8 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Kanban Board</p>
             <p className="mt-7">
-              This Kanban board was created to replicate the JIRA Kanban board
-              functionality. I have used this to help me work in sprints to get
+              This Kanban board was created to replicate aspects of the JIRA
+              Kanban board. I have used this to help me work in sprints to get
               projects completed. This makes use of the MERN stack (Mongodb,
               Express.js, React, Node.js) to send and recieve tickets from a
               Mongo cluster. I also used the react-beautiful-dnd library to add
@@ -165,7 +165,11 @@ const Projects = () => {
               calls.
             </p>
           </div>
-          <img className="h-[300px] w-[600px]" src={Kanban} alt="portfolio" />
+          <img
+            className="h-[300px] w-[600px]"
+            src={KanbanNew}
+            alt="portfolio"
+          />
         </motion.div>
       </div>
     </section>
