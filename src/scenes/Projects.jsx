@@ -5,7 +5,7 @@ import SMP from "../assets/smp1.png";
 import Portfolio from "../assets/portfolio.png";
 import WhaTodo from "../assets/WhaTodo.png";
 import WeatherApp from "../assets/weatherApp.png";
-import KanbanNew from "../assets/KanbanNew.png";
+import Kanban from "../assets/KanBanFinal.png";
 
 const Projects = () => {
   const overlayStyle = `absolute h-[300px] w-[600px] opacity-0 hover:opacity-90 transition duration-500
@@ -165,11 +165,7 @@ const Projects = () => {
               calls.
             </p>
           </div>
-          <img
-            className="h-[300px] w-[600px]"
-            src={KanbanNew}
-            alt="portfolio"
-          />
+          <img className="h-[300px] w-[600px]" src={Kanban} alt="portfolio" />
         </motion.div>
       </div>
     </section>
