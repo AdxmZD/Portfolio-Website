@@ -89,9 +89,9 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Portfolio</p>
             <p className="mt-7">
-              The web page that you are currently visiting was created from
-              scratch with ReactJS, Tailwind CSS and Framer Motion. I created
-              this web app to be responive to multiple screen sizes.{" "}
+              This website was created with ReactJS, Tailwind CSS and Framer
+              Motion. I created this web app to be responive to multiple screen
+              sizes.{" "}
             </p>
           </div>
           <img
@@ -113,8 +113,8 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Todo List</p>
             <p className="mt-7">
-              This is a basic React Todo App. Uses Hooks to allow the user to
-              create/edit/delete a todo task.{" "}
+              Todo list created in React.js with Tailwind css. Backend uses
+              Express.js with PostgreSQL.{" "}
             </p>
           </div>
           <img className="h-[300px] w-[600px]" src={WhaTodo} alt="portfolio" />
@@ -132,9 +132,9 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Weather API App</p>
             <p className="mt-7">
-              Basic Front-End React weather app that fetches weather data from a
-              free weather API. The data returned from the API is dependant on
-              the location entered by the user.
+              Front-End React weather app which fetches weather data from a free
+              weather API using Axios. The data returned from the API is
+              dependant on the location entered by the user.
             </p>
           </div>
           <img
