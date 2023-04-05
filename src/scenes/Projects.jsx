@@ -93,7 +93,7 @@ const Projects = () => {
             <p className="mt-7">
               This website was created with ReactJS, Tailwind CSS and Framer
               Motion. I created this web app to be responive to multiple screen
-              sizes.{" "}
+              sizes. Hosted on Netlify.{" "}
             </p>
           </div>
           <img
