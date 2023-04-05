@@ -108,6 +108,7 @@ const Skills = () => {
             <p className="rounded border border-white p-2">Bash</p>
             <p className="rounded border border-white p-2">Flutter</p>
             <p className="rounded border border-white p-2">SQL</p>
+            <p className="rounded border border-white p-2">NoSQL</p>
             <p className="rounded border border-white p-2">MongoDB</p>
             <p className="rounded border border-white p-2">Postgresql</p>
             <p className="rounded border border-white p-2">Express</p>
@@ -118,6 +119,7 @@ const Skills = () => {
             <p className="rounded border border-white p-2">Tailwind CSS</p>
             <p className="rounded border border-white p-2">HTML</p>
             <p className="rounded border border-white p-2">Docker</p>
+            <p className="rounded border border-white p-2">Terraform</p>
           </div>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -143,11 +145,13 @@ const Skills = () => {
           </div>
           <p className="mt-5">
             In my current employment, I have contributed to numerous development
-            projects in an Agile environment. Following this, as I have greatly
-            enjoyed Front-End web development, I have been working on various
-            React projects to refine my skills. Some snapshots of these projects
-            can be found below, with the code repositories being available on my
-            GitHub.
+            projects in an Agile environment. Following this, I have been
+            working on various projects to refine my skills. Over time, I
+            revisit these projects to implement a new tool for optimisation -
+            for example, unit and e2e testing, containerising the app in a
+            docker image for deployment, connecting to a new databse. Some
+            snapshots of these projects can be found below, with the code
+            repositories being available on my GitHub.
           </p>
         </motion.div>
       </div>

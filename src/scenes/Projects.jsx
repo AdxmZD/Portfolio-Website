@@ -46,7 +46,7 @@ const Projects = () => {
             <p className="mt-7">
               This draft project was created to be used internally. I used
               Google's Flutter framework to create a widget focused app with
-              multiple pages and components.
+              multiple pages and components. This was a front-end only project.
             </p>
           </div>
           <img className="h-[300px] w-[600px]" src={SMP} alt="portfolio" />
@@ -66,7 +66,9 @@ const Projects = () => {
             <p className="mt-7">
               This draft project was also created for internal use to showcase
               the company's consultants on a styled profile template. Created in
-              TypeScript React with styled-components.
+              TypeScript React with styled-components. The backend was written
+              in GoLang, containerised and deployed to an EC2 instance with
+              Terraform.
             </p>
           </div>
           <img
@@ -113,8 +115,8 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Todo List</p>
             <p className="mt-7">
-              Todo list created in React.js with Tailwind css. Backend uses
-              Express.js with PostgreSQL.{" "}
+              ToDo app created in React.js and styled with Tailwind CSS. Backend
+              uses Express.js with PostgreSQL.{" "}
             </p>
           </div>
           <img className="h-[300px] w-[600px]" src={WhaTodo} alt="portfolio" />
