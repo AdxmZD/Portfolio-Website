@@ -50,9 +50,10 @@ const Home = ({ setCurrentPage }) => {
             Adam Deen
           </p>
           <p className="mt-10 mb-7 text-center md:text-start">
-            Junior web developer with one and a half years of experience. I have
-            a passion for front-end development, while I am also keen to try out
-            new tech stacks and learn new skills.
+            A full-stack engineer with over a year and a half of hands-on
+            experience. I have a passion for software development and
+            infrastructure. Driven by a desire to continually expand my skill
+            set, I am always eager to explore new technologies and tech stacks.
           </p>
         </motion.div>
 

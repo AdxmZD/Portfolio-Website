@@ -25,13 +25,11 @@ const Skills = () => {
           </p>
           <PageBreak className="w-1/3" />
           <p className="mt-10 mb-7">
-            As a junior developer I am constantly attaining new skills and
-            experiences. In my one and a half years as a developer, I have had
-            the opportunity to use a wide range of tools, languages and
-            frameworks to implement solutions. I am an excellent team player who
-            enjoys peer programming and adapting to new teams and development
-            environments. I consider myself to be very flexible and keen to dive
-            into new tech stacks where possible.
+            As a developing developer, I'm always learning and growing. I've
+            gained valuable experience working with a variety of tools,
+            languages, and frameworks over the past 18 months. I'm a team player
+            who enjoys collaborating and adjusting to new environments. I'm
+            adaptable and eager to learn new technologies.
           </p>
         </motion.div>
         <div className="mt-16 md:mt-0">
@@ -70,13 +68,12 @@ const Skills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Before entering this industry, I tought secondary level Maths for a
-            year to attain my teaching qualification. I credit this experience
-            with greatly improving my confidence and communication skills, as I
-            am now very proficient in giving presentations and building a
-            rapport with clients. I am currently employed by a consultancy where
-            I've contributed to numerous internal projects, as well as being
-            placed in a team at NatWest for 7 months.
+            Prior to becoming a developer, I taught GCSE and A-Level Math for a
+            year to obtain my teaching credentials. This experience greatly
+            improved my confidence and communication skills, enabling me to give
+            effective presentations and build relationships with clients. I'm
+            presently employed by a consulting firm, where I've contributed to
+            numerous internal projects and worked with NatWest for seven months.
           </p>
         </motion.div>
 
@@ -144,14 +141,13 @@ const Skills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            In my current employment, I have contributed to numerous development
-            projects in an Agile environment. Following this, I have been
-            working on various projects to refine my skills. Over time, I
-            revisit these projects to implement a new tool for optimisation -
-            for example, unit and e2e testing, containerising the app in a
-            docker image for deployment, connecting to a new databse. Some
-            snapshots of these projects can be found below, with the code
-            repositories being available on my GitHub.
+            In my current job, I've worked on several development projects in an
+            Agile setting. I have been honing my skills by working on personal
+            projects and continually improving them over time. I also
+            incorporate new optimization tools, such as unit and e2e testing,
+            containerization for deployment, and database integration. Examples
+            of these projects and their code repositories can be found on my
+            GitHub page.
           </p>
         </motion.div>
       </div>

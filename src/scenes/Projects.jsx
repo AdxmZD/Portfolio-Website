@@ -44,9 +44,13 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Maternity Pay Calculator</p>
             <p className="mt-7">
-              This draft project was created to be used internally. I used
-              Google's Flutter framework to create a widget focused app with
-              multiple pages and components. This was a front-end only project.
+              As part of my work at GlobalLogic, I developed a custom project to
+              calculate maternity and paternity pay for our employees. To
+              achieve this, I leveraged Google's Flutter framework to build a
+              highly functional and intuitive widget-based application, complete
+              with multiple pages and components. With this application, our HR
+              team can accurately calculate employee benefits and ensure that
+              our policies remain compliant with legal requirements.
             </p>
           </div>
           <img className="h-[300px] w-[600px]" src={SMP} alt="portfolio" />
@@ -64,11 +68,9 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Consultant Profile App</p>
             <p className="mt-7">
-              This draft project was also created for internal use to showcase
-              the company's consultants on a styled profile template. Created in
-              TypeScript React with styled-components. The backend was written
-              in GoLang, containerised and deployed to an EC2 instance with
-              Terraform.
+              With the development team I created a full-stack profile navigator
+              application with TypeScript React for the front-end and Go for the
+              back-end, which was deployed on an AWS EC2 Instance.
             </p>
           </div>
           <img
@@ -93,7 +95,7 @@ const Projects = () => {
             <p className="mt-7">
               This website was created with ReactJS, Tailwind CSS and Framer
               Motion. I created this web app to be responive to multiple screen
-              sizes. Hosted on Netlify.{" "}
+              sizes. Hosted on Netlify.
             </p>
           </div>
           <img
@@ -115,8 +117,14 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Todo List</p>
             <p className="mt-7">
-              ToDo app created in React.js and styled with Tailwind CSS. Backend
-              uses Express.js with PostgreSQL.{" "}
+              I developed a full-stack Todo application using the PERN
+              (PostgreSQL, Express, React, Node.js) stack. The application
+              features a user-friendly interface that allows users to add, edit,
+              and delete items from their to-do list. The application uses a
+              RESTful Express API to communicate with a PostgreSQL database,
+              which stores the state of the to-do list. With this application,
+              users can easily keep track of their tasks and manage them
+              efficiently.
             </p>
           </div>
           <img className="h-[300px] w-[600px]" src={WhaTodo} alt="portfolio" />
@@ -134,9 +142,10 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Weather API App</p>
             <p className="mt-7">
-              Front-End React weather app which fetches weather data from a free
-              weather API using Axios. The data returned from the API is
-              dependant on the location entered by the user.
+              This app shows the weather for a location entered by the user,
+              with recent locations saved for future reference. It uses React
+              and Tailwind CSS for building the interface and styling. It
+              includes functionality to convert temperature and round numbers.
             </p>
           </div>
           <img
@@ -158,13 +167,12 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Kanban Board</p>
             <p className="mt-7">
-              This Kanban board was created to replicate aspects of the JIRA
-              Kanban board. I have used this to help me work in sprints to get
-              projects completed. This makes use of the MERN stack (Mongodb,
-              Express.js, React, Node.js) to send and recieve tickets from a
-              Mongo cluster. I also used the react-beautiful-dnd library to add
-              smooth drag and drop animations and handle onDragEnd function
-              calls.
+              I created a Kanban board that mirrors JIRA's functionality,
+              allowing me to work efficiently in sprints and complete projects.
+              Built with the MERN stack (MongoDB, Express.js, React, and
+              Node.js), this app sends and receives tickets from a Mongo
+              cluster. I incorporated the react-beautiful-dnd library to enable
+              smooth drag-and-drop animations and handle drag events.
             </p>
           </div>
           <img className="h-[300px] w-[600px]" src={Kanban} alt="portfolio" />
