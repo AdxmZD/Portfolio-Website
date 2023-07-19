@@ -3,9 +3,6 @@ import PageBreak from "../components/PageBreak";
 import ConsultantProfile from "../assets/consultantprofile.png";
 import SMP from "../assets/smp1.png";
 import Portfolio from "../assets/portfolio.png";
-import WhaTodo from "../assets/WhaTodo.png";
-import WeatherApp from "../assets/weatherApp.png";
-import Kanban from "../assets/KanBanFinal.png";
 
 const Projects = () => {
   const overlayStyle = `absolute h-[300px] w-[600px] opacity-0 hover:opacity-90 transition duration-500
@@ -44,13 +41,11 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Maternity Pay Calculator</p>
             <p className="mt-7">
-              As part of my work at GlobalLogic, I developed a custom project to
-              calculate maternity and paternity pay for our employees. To
-              achieve this, I leveraged Google's Flutter framework to build a
-              highly functional and intuitive widget-based application, complete
-              with multiple pages and components. With this application, our HR
-              team can accurately calculate employee benefits and ensure that
-              our policies remain compliant with legal requirements.
+              I leveraged Google's Flutter framework to build a highly
+              functional and intuitive widget-based application, complete with
+              multiple pages and components. With this application, our HR team
+              could accurately calculate employee benefits and ensure that our
+              policies remain compliant with legal requirements.
             </p>
           </div>
           <img className="h-[300px] w-[600px]" src={SMP} alt="portfolio" />
@@ -68,7 +63,7 @@ const Projects = () => {
           <div className={overlayStyle}>
             <p className="text-2xl font-playfair">Consultant Profile App</p>
             <p className="mt-7">
-              With the development team I created a full-stack profile navigator
+              I worked with a team to develop a full-stack profile vizualisation
               application with TypeScript React for the front-end and Go for the
               back-end, which was deployed on an AWS EC2 Instance.
             </p>
@@ -103,79 +98,6 @@ const Projects = () => {
             src={Portfolio}
             alt="portfolio"
           />
-        </motion.div>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ amount: 0.2 }}
-          transition={{ delay: 0.3, duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x: 0 },
-          }}
-        >
-          <div className={overlayStyle}>
-            <p className="text-2xl font-playfair">Todo List</p>
-            <p className="mt-7">
-              I developed a full-stack Todo application using the PERN
-              (PostgreSQL, Express, React, Node.js) stack. The application
-              features a user-friendly interface that allows users to add, edit,
-              and delete items from their to-do list. The application uses a
-              RESTful Express API to communicate with a PostgreSQL database,
-              which stores the state of the to-do list. With this application,
-              users can easily keep track of their tasks and manage them
-              efficiently.
-            </p>
-          </div>
-          <img className="h-[300px] w-[600px]" src={WhaTodo} alt="portfolio" />
-        </motion.div>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ amount: 0.2 }}
-          transition={{ delay: 0.4, duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x: 0 },
-          }}
-        >
-          <div className={overlayStyle}>
-            <p className="text-2xl font-playfair">Weather API App</p>
-            <p className="mt-7">
-              This app shows the weather for a location entered by the user,
-              with recent locations saved for future reference. It uses React
-              and Tailwind CSS for building the interface and styling. It
-              includes functionality to convert temperature and round numbers.
-            </p>
-          </div>
-          <img
-            className="h-[300px] w-[600px]"
-            src={WeatherApp}
-            alt="portfolio"
-          />
-        </motion.div>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ amount: 0.2 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
-          variants={{
-            hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x: 0 },
-          }}
-        >
-          <div className={overlayStyle}>
-            <p className="text-2xl font-playfair">Kanban Board</p>
-            <p className="mt-7">
-              I created a Kanban board that mirrors JIRA's functionality,
-              allowing me to work efficiently in sprints and complete projects.
-              Built with the MERN stack (MongoDB, Express.js, React, and
-              Node.js), this app sends and receives tickets from a Mongo
-              cluster. I incorporated the react-beautiful-dnd library to enable
-              smooth drag-and-drop animations and handle drag events.
-            </p>
-          </div>
-          <img className="h-[300px] w-[600px]" src={Kanban} alt="portfolio" />
         </motion.div>
       </div>
     </section>

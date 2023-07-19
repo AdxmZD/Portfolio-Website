@@ -50,10 +50,10 @@ const Home = ({ setCurrentPage }) => {
             Adam Deen
           </p>
           <p className="mt-10 mb-7 text-center md:text-start">
-            A full-stack engineer with over a year and a half of hands-on
-            experience. I have a passion for software development and
-            infrastructure. Driven by a desire to continually expand my skill
-            set, I am always eager to explore new technologies and tech stacks.
+            An experienced full-stack engineer with a deep passion for software
+            development and infrastructure. Motivated by continuous learning, I
+            actively seek out opportunities to embrace new technologies and
+            diversify my expertise.
           </p>
         </motion.div>
 

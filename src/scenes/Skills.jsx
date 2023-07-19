@@ -27,9 +27,8 @@ const Skills = () => {
           <p className="mt-10 mb-7">
             As a developing developer, I'm always learning and growing. I've
             gained valuable experience working with a variety of tools,
-            languages, and frameworks over the past 18 months. I'm a team player
-            who enjoys collaborating and adjusting to new environments. I'm
-            adaptable and eager to learn new technologies.
+            languages, and frameworks. I'm a team player who enjoys
+            collaborating and adjusting to new environments.
           </p>
         </motion.div>
         <div className="mt-16 md:mt-0">
@@ -71,9 +70,7 @@ const Skills = () => {
             Prior to becoming a developer, I taught GCSE and A-Level Math for a
             year to obtain my teaching credentials. This experience greatly
             improved my confidence and communication skills, enabling me to give
-            effective presentations and build relationships with clients. I'm
-            presently employed by a consulting firm, where I've contributed to
-            numerous internal projects and worked with NatWest for seven months.
+            effective presentations and build relationships with clients.
           </p>
         </motion.div>
 
@@ -141,13 +138,15 @@ const Skills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            In my current job, I've worked on several development projects in an
-            Agile setting. I have been honing my skills by working on personal
-            projects and continually improving them over time. I also
-            incorporate new optimization tools, such as unit and e2e testing,
-            containerization for deployment, and database integration. Examples
-            of these projects and their code repositories can be found on my
-            GitHub page.
+            In my previous role as a Software Developer, I worked as part of a
+            team on a variety of client projects. I was responsible for
+            developing and maintaining the front-end of a web application, as
+            well as integrating it with a back-end API. I also worked on a
+            mobile application, which I developed using Google's Flutter
+            framework. I was responsible for the entire development process,
+            from design to deployment. I also worked on a variety of internal
+            projects, including a maternity pay calculator and a data
+            visualization tool.
           </p>
         </motion.div>
       </div>
