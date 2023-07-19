@@ -97,7 +97,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-wrap flex-row gap-2 mt-5">
             <p className="rounded border border-white p-2">JavaScript</p>
-            <p className="rounded border border-white p-2">React</p>
+            <p className="rounded border border-white p-2">ReactJS</p>
             <p className="rounded border border-white p-2">TypeScript</p>
             <p className="rounded border border-white p-2">Bash</p>
             <p className="rounded border border-white p-2">Flutter</p>
@@ -106,7 +106,9 @@ const Skills = () => {
             <p className="rounded border border-white p-2">MongoDB</p>
             <p className="rounded border border-white p-2">Postgresql</p>
             <p className="rounded border border-white p-2">Express</p>
-            <p className="rounded border border-white p-2">Next</p>
+            <p className="rounded border border-white p-2">NextJS</p>
+            <p className="rounded border border-white p-2">ChartJS</p>
+            <p className="rounded border border-white p-2">MUI</p>
             <p className="rounded border border-white p-2">JIRA</p>
             <p className="rounded border border-white p-2">ServiceNow</p>
             <p className="rounded border border-white p-2">Git</p>
